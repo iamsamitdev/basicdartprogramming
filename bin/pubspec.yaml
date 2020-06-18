@@ -1,0 +1,5 @@
+name: basicdartprogramming
+version: 1.0.0
+description: this is description
+dependencies: 
+    meta: ^1.1.8
