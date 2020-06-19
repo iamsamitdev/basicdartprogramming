@@ -1,5 +1,5 @@
 // เรียกใช้งาน package ภายนอกที่กำหนดไว้ใน pubspec.yaml
-import 'package:meta/meta.dart';
+import 'package:meta/meta.dart' show required;
 
 // การเรียนรู้ภาษา Dart
 // หัวข้อที่ 100เรื่องการเขียนฟังก์ชัน
@@ -41,9 +41,9 @@ void main() {
 
    // เรียกใช้งาน
    setConfig(
-     //maxThread: 30,
+     // maxThread: 30,
      basePath: '/home',
-    //  appPath: '/app',
+     //appPath: '/app',
      // defaultController: 'main'
    );
 
